@@ -5,3 +5,5 @@ app = FastAPI()
 @app.get("/")
 def get_text():
     return "Hello"
+
+print("Hello, word")
